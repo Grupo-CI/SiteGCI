@@ -1,0 +1,24 @@
+span #aviso{
+    justify-content: center;
+    margin-bottom: 2px;
+}
+
+/*    SISTEMA DATACAIXA   */
+#sobre-servico, #imagem-sistema{
+    display: inline-block;
+    padding: 15px;
+}
+
+h2 #sistema{
+    justify-content: center;
+    padding: 10px;
+}
+ div{
+    display: flex
+ }
+
+ div #datacaixa{
+    display: grid;
+ }
+
+

@@ -1,0 +1,207 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+
+body{
+    max-width: 100%;
+    margin: 0;
+    padding: 0;
+}
+
+header, footer{
+    display: flex;
+    height: 5.2rem;
+    padding: 20px;
+    align-items: center;
+    justify-content: space-between;
+    background-color: black;
+    clear: both;
+}
+
+header img{
+    width: 50px;
+}
+
+nav{
+    display: flex;
+    flex-direction: row;
+}
+
+nav li{
+    margin: 8px;
+    list-style-type: none;
+}
+
+nav a{
+    color: white;
+    font-size: 18px;
+    text-decoration: none;
+}
+
+#aviso{
+    align-items: center;
+    text-align: center;
+    padding-top: 10px;
+    font-size: 18px;
+    font-style: oblique;
+}
+
+main{
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    align-items: center;
+}
+
+
+h2{
+    text-align: center;
+}
+
+button{
+    background: linear-gradient(90deg, rgba(7,5,5,1) 6%, rgba(0,102,177,0.9590834697217676) 100%);
+    padding: 5px;
+}
+
+div.card button {
+    border-radius: 15rem;
+    border: none;
+
+}
+
+div.item button {
+    border-radius: 15rem;
+    border: none;
+
+}
+
+button a {
+    color: white;
+    text-decoration: none;
+}
+
+#contexto{
+    margin-top: 15px;
+    width: 80%;
+    text-align:justify;
+}
+
+/*       CARROSSEL         */
+.arrow-left, .arrow-right{
+    background: none;
+    border: none;
+    position: absolute;
+    top: 0;
+    left: 0;
+    right: auto;
+    bottom: 0;
+    font-size: 20px;
+    line-height: 250px;
+    width: 40px;
+    text-align: center;
+    color: #fff;
+    cursor: pointer;
+    background: linear-gradient(to left, transparent 0%, black 200%);
+    opacity: 0.1;
+}
+
+.arrow-left:hover, .arrow-right:hover{
+    opacity: 1;
+}
+
+.arrow-right{
+    right: 0;
+    left: auto;
+    text-align: right;
+    background: linear-gradient(to right, transparent 0%, black 200%);
+}
+
+.container{
+    position: relative;
+    padding: 15px;
+    max-width: 640px;
+    margin: 0 auto;
+}
+
+.carrossel-wrapper{
+    overflow-x: auto;
+
+}
+
+.carrossel-wrapper::-webkit-scrollbar {
+    display: none;
+}
+
+.carrossel{
+    flex-flow: row nowrap;
+    display:inline-flex;
+    gap: 15px;
+    align-items: center;
+}
+
+#produto{
+    width: 250px;
+    flex-shrink: 0;
+    opacity: 0.6;
+}
+
+.produto{
+    width: 250px;
+    flex-shrink: 0;
+    opacity: 0.6;
+}
+
+#current-item{
+    opacity: 1;
+    width: 250px;
+    flex-shrink: 0;
+}
+
+
+/* _+_+_+_+_+_+_+_+_+  PRODUTOS HOME +_+_+_+_+_+_+_+_+_+_+_+_+ */
+#produtos{
+    margin-top: 50px;
+}
+
+.card{
+    width: 18rem;
+    text-align: center;
+    float: left;
+    margin-left: 2%;
+    margin-bottom: 2%;
+    border-radius: 17rem;
+    height: auto;
+}
+
+#produtos h2{
+    margin-bottom: 2%;
+}
+
+/* ---=-=-=-=-=-= SERVICOS =-=-=-=-=-=-=-=-=- */
+#servicos{
+    margin-top: 50px;
+}
+
+#servicos h2{
+    margin-bottom: 2%;
+}
+
+#servicos img{
+    margin-bottom: 3%;
+}
+
+#servicos .card{
+    margin: 2rem;
+    padding: 0;
+}
+
+#sm{
+    width: auto;
+}
+
+
+
+
+
+
