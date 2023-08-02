@@ -1,0 +1,45 @@
+main{
+    max-width: 85%;
+    margin-left: 15%;
+    margin-right: 15%;
+}
+
+div#servico{
+    display: inline-grid;
+    grid-template-columns: 0.7fr 2fr;
+}
+
+span #aviso{
+    justify-content: center;
+    margin-bottom: 2%;
+}
+
+div h2#sistema{
+    margin-bottom: 2%;
+    margin-left: 15%;
+}
+
+div#produto{
+    width: 25rem;
+    text-align: justify;
+    margin-left: 2%;
+    margin-bottom: 2%;
+    border-radius: 17rem;
+    height: auto;
+}
+
+div#produto p{
+    margin-left: 5%;
+}
+
+div#produto h4{
+    text-align: center;
+    padding: 2%
+}
+
+div#produtos button{
+    border-radius: 15rem;
+    border: none;
+    align-items: center;
+}
+

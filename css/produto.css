@@ -2,7 +2,6 @@ div #produtos{
     display: inline-grid;
     margin-left:7%;
     grid-template-columns: 2fr 2fr 1.5fr;
-
 }
 
 span #aviso{

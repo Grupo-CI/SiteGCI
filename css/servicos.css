@@ -13,9 +13,6 @@ h2 #sistema{
     justify-content: center;
     padding: 10px;
 }
- div{
-    display: flex
- }
 
  div #datacaixa{
     display: grid;
