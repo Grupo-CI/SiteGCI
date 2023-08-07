@@ -82,12 +82,11 @@ button a {
 #produtos{
     display: flex;
     flex-direction: column;
-    align-items: center;
     justify-content: center;
     margin-top: 50px;
-    width: 100%;
-    height: 750px;
-    background-color: #F0FFFF;
+    width: 90%;
+    background: rgb(2,0,36);
+    background: linear-gradient(90deg, rgba(2,0,36,0.5747549019607843) 16%, rgba(9,9,121,0.633578431372549) 20%, rgba(255,252,0,1) 67%);
 }
 
 #produtos h2{
@@ -95,18 +94,14 @@ button a {
 }
 
 .card{
-    width: 20rem;
+    width: 18rem;
     height: 500px;
-
     display: flex;
     flex-direction: column;
-    justify-content: center;
-    
-    
+    justify-content: center;            
     border-radius: 5px;
-    box-shadow: rgba(0, 0, 0, 0.35) 0px 5px 15px;
+    box-shadow: rgba(0, 0, 0, 0.35) 0px 5px 10px;
     text-align: center;
-    
 }
 
 
