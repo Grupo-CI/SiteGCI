@@ -93,7 +93,7 @@ button a {
     margin-bottom: 2%;
 }
 
-.card{
+.card-produto{
     width: 16.5rem;
     height: 500px;
     width: 85%;
@@ -105,6 +105,16 @@ button a {
     text-align: center;
 }
 
+.card{
+    width: 16.5rem;
+    height: 500px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;            
+    border-radius: 5px;
+    box-shadow: rgba(0, 0, 0, 0.35) 0px 2px 8px;
+    text-align: center;
+}
 
 /* ---=-=-=-=-=-= SERVICOS =-=-=-=-=-=-=-=-=- */
 #servicos{
