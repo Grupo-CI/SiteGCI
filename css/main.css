@@ -94,13 +94,13 @@ button a {
 }
 
 .card{
-    width: 18rem;
+    width: 16.5rem;
     height: 500px;
     display: flex;
     flex-direction: column;
     justify-content: center;            
     border-radius: 5px;
-    box-shadow: rgba(0, 0, 0, 0.35) 0px 5px 10px;
+    box-shadow: rgba(0, 0, 0, 0.35) 0px 2px 8px;
     text-align: center;
 }
 
