@@ -82,11 +82,18 @@
     font:inherit
 }
 
-.owl-carousel.owl-loading{opacity:0;display:block}
+.owl-carousel.owl-loading{
+    opacity:0;
+    display:block
+}
 
-.owl-carousel.owl-hidden{opacity:0}
+.owl-carousel.owl-hidden{
+    opacity:0
+}
 
-.owl-carousel.owl-refresh .owl-item{visibility:hidden}
+.owl-carousel.owl-refresh .owl-item{
+    visibility:hidden
+}
 
 .owl-carousel.owl-drag .owl-item{
     -ms-touch-action:pan-y;
@@ -151,6 +158,7 @@
 
 .owl-carousel .owl-item img.owl-lazy{
     transform-style:preserve-3d
+
 }
 
 .owl-carousel .owl-video-wrapper{
