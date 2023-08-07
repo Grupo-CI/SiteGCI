@@ -1,14 +1,10 @@
 div #produtos{
     display: grid;
     grid-template-columns: 2fr 2fr 1.5fr;
-    gap: 0
+    gap: 5px 3px;
 }
 
 span #aviso{
     margin-bottom: 2%;
 }
 
-.card{
-    display: flex;
-    margin-bottom: 2%;
-}
