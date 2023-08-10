@@ -1,0 +1,36 @@
+div#servico{
+    display: inline-grid;
+    grid-template-columns: 0fr 1fr;
+}
+
+span #aviso{
+    justify-content: center;
+    margin-bottom: 2%;
+}
+
+div h2#sistema{
+    margin-bottom: 2%;
+    margin-left: 15%;
+}
+
+div.loja-virtual{
+    width: 70%;
+    height: auto;
+    display: flex;
+    flex-direction: column;
+}
+
+div#sobre-lojaVirtual p{
+    text-align: justify;
+    margin-left: 10px;
+    justify-content: space-between;
+}
+
+div#sobre-lojaVirtual h4{
+    text-align: center;
+    padding: 2%
+}
+
+
+
+
