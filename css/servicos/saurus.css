@@ -18,12 +18,14 @@ div.saurus{
     height: auto;
     display: flex;
     flex-direction: column;
+
 }
 
 div.saurus p{
-    justify-content: space-between;
     text-align: justify;
     margin-left: 10px;
+    justify-content: space-between;
+
 }
 
 div.saurus h4{
@@ -31,6 +33,8 @@ div.saurus h4{
     padding: 2%
 }
 
-
+button{
+    float:unset;
+}
 
 
