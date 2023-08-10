@@ -1,23 +1,14 @@
 .card{
-    display: flex;
     flex-direction: column;
     margin-top: 50px;
-   
+    display: inline-grid;
+    width: 16.5rem;
+    height: 500px;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;            
+    border-radius: 5px;
+    box-shadow: rgba(0, 0, 0, 0.35) 0px 2px 8px;
+    text-align: center;
 }
-
-/*    SISTEMA DATACAIXA   
-#sobre-servico, #imagem-sistema{
-    display: inline-block;
-    padding: 15px;
-}
-
-h2 #sistema{
-    justify-content: center;
-    padding: 10px;
-}
-
- div #datacaixa{
-    display: grid;
- }
-*/
 
