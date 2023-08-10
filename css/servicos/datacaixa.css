@@ -1,0 +1,38 @@
+div#servico{
+    display: inline-grid;
+    grid-template-columns: 0fr 1fr;
+}
+
+span #aviso{
+    justify-content: center;
+    margin-bottom: 2%;
+}
+
+div h2#sistema{
+    margin-bottom: 2%;
+    margin-left: 15%;
+}
+
+div.datacaixa{
+    width: 700px;
+    height: auto;
+    display: flex;
+    flex-direction: column;
+}
+
+div#sobre-datacaixa {
+    text-align: justify;
+    margin-left: 10px;
+    justify-content: space-between;
+}
+
+h4{
+    padding: 5px;
+    text-align: center;
+}
+
+
+
+
+
+
