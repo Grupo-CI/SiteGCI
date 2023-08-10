@@ -20,7 +20,7 @@ div.consumer{
     flex-direction: column;
 }
 
-div#sobre-consumer p, h5{
+div#sobre-consumer p{
     text-align: justify;
     margin-left: 10px;
     justify-content: space-between;
@@ -34,6 +34,8 @@ div#sobre-consumer h4{
 h5{
     margin-bottom: 10px;
 }
+
+
 
 
 
