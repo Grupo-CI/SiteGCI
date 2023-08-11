@@ -80,6 +80,10 @@ button a {
     text-align: justify;
 }
 
+#contexto p{
+    padding: 10px;
+}
+
 /* _+_+_+_+_+_+_+_+_+  PRODUTOS HOME +_+_+_+_+_+_+_+_+_+_+_+_+ */
 #produtos{
     display: flex;
