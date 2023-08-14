@@ -20,10 +20,14 @@ div.datacaixa{
     flex-direction: column;
 }
 
-div#sobre-datacaixa {
+div#sobre-datacaixa p{
     text-align: justify;
     margin-left: 10px;
     justify-content: space-between;
+}
+
+div#sobre-datacaixa{
+    text-align: center;
 }
 
 h4{
