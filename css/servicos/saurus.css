@@ -14,18 +14,21 @@ div h2#sistema{
 }
 
 div.saurus{
-    width: 80%;
+    width: 700px;
     height: auto;
     display: flex;
     flex-direction: column;
-
+    justify-content: space-between;
 }
 
 div.saurus p{
     text-align: justify;
     margin-left: 10px;
-    justify-content: space-between;
+    padding: 2px;
+}
 
+div#sobre-saurus{
+    text-align: center;
 }
 
 div.saurus h4{
