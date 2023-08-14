@@ -26,6 +26,10 @@ div#sobre-bobina p{
     margin-left: 10px;
 }
 
+div#sobre-bobina{
+    text-align: center;
+}
+
 div.detalhes-prod{
     text-align: center;
 }
