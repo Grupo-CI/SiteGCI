@@ -14,10 +14,14 @@ div h2#sistema{
 }
 
 div.loja-virtual{
-    width: 555px;
+    width: 700px;
     height: auto;
     display: flex;
     flex-direction: column;
+}
+
+div#sobre-lojaVirtual{
+    text-align: center;
 }
 
 div#sobre-lojaVirtual p{
