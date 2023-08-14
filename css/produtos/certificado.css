@@ -27,8 +27,13 @@ div#produto{
     height: auto;
 }
 
+div#produto{
+    text-align: center;
+}
+
 div#produto p{
     margin-left: 5px;
+    text-align: justify;
 }
 
 div#produto h4{
