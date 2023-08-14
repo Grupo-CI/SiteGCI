@@ -20,6 +20,10 @@ div.consumer{
     flex-direction: column;
 }
 
+div#sobre-consumer{
+    text-align: center;
+}
+
 div#sobre-consumer p{
     text-align: justify;
     margin-left: 10px;
