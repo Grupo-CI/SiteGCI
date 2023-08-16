@@ -9,9 +9,12 @@
 }
 
 .owl-carousel{
-    display:none;
+    display:flex;
+    justify-content: center;
+    align-items: center;
     width:100%;
-    z-index:1
+    height: 100%;
+    z-index:1;
 }
 
 .owl-carousel .owl-stage{
@@ -54,7 +57,7 @@
 
 .owl-carousel .owl-item img{
     display:block;
-    width:100%
+    width:100%;
 }
 
 .owl-carousel .owl-dots.disabled,.owl-carousel .owl-nav.disabled{
@@ -62,7 +65,9 @@
 }
 
 .no-js .owl-carousel,.owl-carousel.owl-loaded{
-    display:block
+    display: block;
+    padding-top: 25px;
+    
 }
 
 .owl-carousel .owl-dot,.owl-carousel .owl-nav .owl-next,.owl-carousel .owl-nav .owl-prev{

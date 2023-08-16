@@ -1,9 +1,21 @@
+* {
+    box-sizing: border-box;
+  }
+
+#container-produtos{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
 div #produtos{
     display: grid;
+    width: 90%;
     grid-template-columns: 2fr 2fr 1.5fr;
-    gap: 2% 1%;
+    gap: 50px 10px;
     background: none;
-
+    flex-wrap: wrap;
 }
 
 span #aviso{
@@ -14,4 +26,9 @@ span #aviso{
     justify-content: space-between;
 }
 
-
+@media screen and (max-width: 992px){
+    
+    div #produtos{
+        grid-template-columns: 2fr 2fr; 
+    }
+}
