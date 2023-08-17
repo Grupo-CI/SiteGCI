@@ -26,9 +26,26 @@ span #aviso{
     justify-content: space-between;
 }
 
+@media screen and (max-width: 500px){
+
+    div #produtos{
+        display: flex;
+        flex-direction: column;
+    }
+
+    .wpp{
+        position: fixed;
+        bottom: 4px;
+        right: 3px;
+        z-index: 9999;
+    }
+    
+}
+
 @media screen and (max-width: 992px){
     
     div #produtos{
         grid-template-columns: 2fr 2fr; 
     }
+
 }
