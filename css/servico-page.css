@@ -11,3 +11,33 @@
     text-align: center;
 }
 
+@media screen and (max-width: 500px) {
+    
+    nav{
+        display: flex;
+        flex-direction: column;
+    }
+
+    .wrap-content{
+        display: flex;
+        flex-direction: column;   
+    }
+
+    .wpp{
+        position: fixed;
+        bottom: 4px;
+        right: 3px;
+        z-index: 9999;
+    }
+}
+
+@media screen and (max-width: 1000px) {
+    
+    nav{
+        display: flex;
+        flex-direction: column;
+    }
+}
+
+
+
