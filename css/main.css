@@ -7,8 +7,8 @@
 body{
     margin: 0;
     padding: 0;
-    background-color:  #fffefe;
-    /* background: linear-gradient(90deg, rgba(7,5,5,1) 6%, rgba(0,102,177,0.9590834697217676) 100%); */
+    background: linear-gradient(90deg, rgba(7,5,5,1) 6%, rgba(0,102,177,0.9590834697217676) 100%); 
+    color:aliceblue
 }
 
 header{
@@ -58,11 +58,11 @@ main{
 h2{
     text-align: center;
 }
-/* 
+ 
 button{
     background: linear-gradient(90deg, rgba(7,5,5,1) 6%, rgba(0,102,177,0.9590834697217676) 100%);
     padding: 5px;
-} */
+} 
 
 
 div.card button {

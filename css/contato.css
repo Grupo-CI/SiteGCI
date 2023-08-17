@@ -1,3 +1,19 @@
 h2{
-    padding: 5px;
+    padding: 10px
+}
+
+.contato{
+    display: flex;
+    flex-direction: row;
+    width: 100%;
+    justify-content: center;
+}
+
+.redes-sociais, .mapa{
+    padding: 25px;    
+
+}
+
+.redes-sociais p, .social{
+    text-align: center;
 }
