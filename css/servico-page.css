@@ -5,7 +5,6 @@
     width: 16.5rem;
     height: 500px;
     display: flex;
-    flex-direction: column;
     justify-content: space-between;            
     border-radius: 5px;
     box-shadow: rgba(0, 0, 0, 0.35) 0px 2px 8px;
