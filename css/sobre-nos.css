@@ -10,3 +10,26 @@ p{
 h2{
     padding: 10px
 }
+
+@media screen and (max-width: 500px) {
+    
+    nav{
+        display: flex;
+        flex-direction: column;
+    }
+
+    div.sobre-nos{
+        display: flex;
+        flex-direction: column;
+        width: 80%
+
+    }
+
+    .wpp{
+        position: fixed;
+        bottom: 4px;
+        z-index: 9999;
+    }
+
+
+}
