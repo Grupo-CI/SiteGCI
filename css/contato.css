@@ -9,6 +9,10 @@ h2{
     justify-content: center;
 }
 
+h3{
+    text-align: center;
+}
+
 .redes-sociais, .mapa{
     padding: 25px;    
 
@@ -16,4 +20,47 @@ h2{
 
 .redes-sociais p, .social{
     text-align: center;
+}
+
+@media screen and (max-width: 500px) {
+ 
+    nav{
+        display: flex;
+        flex-direction: column;
+    }
+
+    .contato{
+        display: flex;
+        flex-direction: column-reverse;
+        width: 100%;
+        justify-content: center;
+    }
+
+    iframe{
+        width: 350px;
+        height: 450px
+    }
+}
+
+@media screen and (max-width: 790px) {
+ 
+    nav{
+        display: flex;
+        flex-direction: column;
+    }
+
+    h3{
+        text-align: center;
+    }
+
+    .contato{
+        display: flex;
+        flex-direction: row;
+        width: 100%;
+    }
+
+    iframe{
+        width: 450px;
+        height: 450px
+    }
 }
