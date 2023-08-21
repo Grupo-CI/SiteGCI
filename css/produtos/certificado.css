@@ -47,6 +47,26 @@ div#produtos button{
     align-items: center;
 }
 
+@media screen and (max-width: 405px) {
+    
+    #servico{
+        display: flex;
+        flex-direction: column;
+        flex-wrap: wrap;
+        align-items: center;
+    }
+
+    #produto{
+        display: flex;
+        flex-direction: column;
+    }
+
+    img{
+        padding: 10px;
+    }
+
+}
+
 @media screen and (max-width: 628px) {
     
     #servico{

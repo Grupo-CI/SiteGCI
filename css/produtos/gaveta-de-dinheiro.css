@@ -1,6 +1,6 @@
 div#servico{
-    display: inline-grid;
-    grid-template-columns: 0.7fr 2fr;
+    display: flex;
+    flex-direction: row;
 }
 
 span #aviso{
@@ -41,3 +41,75 @@ div#sobre-gaveta button{
     align-items: center;
 }
 
+
+@media screen and (max-width: 732px) {
+    nav{
+        display: flex;
+        flex-direction: column;
+    }
+
+    main{
+        justify-content: center;
+    }
+
+    div.gaveta-de-dinheiro{
+        display: flex;
+        flex-direction: column;
+        flex-wrap: wrap;
+        justify-content: center;
+    }
+    
+    #servico{
+        display: flex;
+        flex-direction: column;
+        flex-wrap: wrap;
+        width: 95%;
+    }
+    
+    #servico img{
+        justify-content: center;
+        padding: 30px;
+    }
+
+    div#sobre-gaveta{
+        justify-content: center;
+        width: 100%;
+    }
+
+    .wpp{
+        width: 0px;
+        position: fixed;
+        bottom: 5px;
+        right: 80px;
+        z-index: 9999;
+    }   
+}
+
+@media screen and (max-width: 1028px) {
+ 
+    nav{
+        width: 90%;
+    }
+
+    #aviso{
+        width: 90%;
+    }
+
+    #servico{
+        width: 85%;       
+    }
+ 
+    #servico .img{
+        justify-content: center;
+        width: 50%;
+    }
+
+    .wpp{
+        width: 0px;
+        position: fixed;
+        bottom: 5px;
+        right: 160px;
+        z-index: 9999;
+    }   
+
+}

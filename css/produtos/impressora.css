@@ -1,6 +1,6 @@
 div#servico{
-    display: inline-grid;
-    grid-template-columns: 0.7fr 2fr;
+    display: flex;
+    flex-direction: row;
 }
 
 span #aviso{
@@ -18,7 +18,6 @@ div.impressora{
     text-align: justify;
     margin-left: 2%;
     margin-bottom: 2%;
-    border-radius: 17rem;
     height: auto;
     justify-content: space-between;
 }
@@ -47,5 +46,43 @@ div.detalhes-prod button{
     align-items: center;
 }
 
+@media screen and (max-width: 873px) {
+    nav{
+        display: flex;
+        flex-direction: column;
+    }
 
+    div.impressora{
+        width: 360px;
+        display: flex;
+        flex-direction: column;
+        flex-wrap: wrap;
+        justify-content: center;
+    }
+    
+    #servico{
+        display: flex;
+        flex-direction: column;
+        flex-wrap: wrap;
+        width: 100%;
+    }
+    
+    #servico img{
+        justify-content: center;
+        padding: 20px;
+    }
+
+    div#sobre-impressora{
+        justify-content: center;
+        width: 100%;
+    }
+    
+    .wpp{
+        width: 0px;
+        position: fixed;
+        bottom: 5px;
+        right: 100px;
+        z-index: 9999;
+    }   
+}
 

@@ -1,6 +1,6 @@
 div#servico{
-    display: inline-grid;
-    grid-template-columns: 0fr 1fr;
+    display: flex;
+    flex-direction: row;
 }
 
 span #aviso{
@@ -20,26 +20,77 @@ div.consumer{
     flex-direction: column;
 }
 
-div#sobre-consumer{
-    text-align: center;
-}
-
 div#sobre-consumer p{
     text-align: justify;
     margin-left: 10px;
     justify-content: space-between;
 }
 
-div#sobre-consumer h4{
+div#sobre-consumer{
     text-align: center;
-    padding: 2%
 }
 
-h5{
-    margin-bottom: 10px;
+h4{
+    padding: 5px;
+    text-align: center;
 }
 
+@media screen and (max-width: 353px) {
+    
+    .img img{
+        width: 200px;
+    }
 
+    .wpp{
+        width: 0px;
+        position: fixed;
+        bottom: 2px;
+        right: 10px;
+        z-index: 9999;
+    }
+}
+
+@media screen and (max-width: 361px) {
+    div .img{
+        width: 10%;
+    }
+
+    .wpp{
+        width: 0px;
+        position: fixed;
+        bottom: 5px;
+        right: 140px;
+        z-index: 9999;
+    }   
+}
+
+@media screen and (max-width: 622px) {
+
+    #servico{
+        display: flex;
+        flex-direction: column;
+        flex-wrap: wrap;
+    }
+
+    div .img{
+        margin-left: 15%
+    }
+
+}
+
+@media screen and (max-width: 691px) {
+    
+    div.consumer{
+        width: 90%
+    }
+}
+
+@media screen and (max-width: 711px) {
+    
+    div.consumer{
+        width: 95%
+    }
+}
 
 
 

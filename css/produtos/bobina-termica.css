@@ -1,6 +1,6 @@
 div#servico{
-    display: inline-grid;
-    grid-template-columns: 0.7fr 2fr;
+    display: flex;
+    flex-direction: row;
 }
 
 span #aviso{
@@ -14,12 +14,16 @@ div h2#sistema{
 }
 
 div.bobina{
-    width: 750px;
+    width: 80%;
     text-align: justify;
     margin-left: 2%;
     margin-bottom: 2%;
-    border-radius: 17rem;
     height: auto;
+    margin-right: 6%;
+}
+
+.detalhes-prod{
+    text-align: center;
 }
 
 div#sobre-bobina p{
@@ -27,10 +31,6 @@ div#sobre-bobina p{
 }
 
 div#sobre-bobina{
-    text-align: center;
-}
-
-div.detalhes-prod{
     text-align: center;
 }
 
@@ -44,10 +44,48 @@ h3{
 }
 
 div.detalhes-prod button{
-    border-radius: 15rem;
     border: none;
     align-items: center;
 }
 
+@media screen and (max-width: 670px) {
+
+    nav{
+        display: flex;
+        flex-direction: column;
+    }
+
+    .img{
+        width: 70%;
+    }
+
+    main{
+        width: 70%;
+        justify-content: center;
+        display: flex;
+        flex-direction: column;
+        flex-wrap: wrap;
+    }
+
+    #servico{
+        display: flex;
+        flex-direction: column;
+        flex-wrap: wrap;
+    }
+
+    #sobre-bobina{
+        text-align: center;
+    }
+
+    .wpp{
+        width: 0px;
+        position: fixed;
+        bottom: 5px;
+        right: 70px;
+        z-index: 9999;
+    }
+
+
+}
 
 
