@@ -1,11 +1,6 @@
-main{
-    margin-left: 5%;
-    margin-right: 5%;
-}
-
 div#servico{
-   display: flex;
-   flex-direction: row;
+    display: flex;
+    flex-direction: row;
 }
 
 span #aviso{
@@ -18,73 +13,93 @@ div h2#sistema{
     margin-left: 15%;
 }
 
-div#produto{
-    width: 25rem;
+div#sobre-certifcado{
+    width: 500px;
     text-align: justify;
     margin-left: 2%;
     margin-bottom: 2%;
-    border-radius: 17rem;
     height: auto;
 }
 
-div#produto{
+div#sobre-certificado{
     text-align: center;
 }
 
-div#produto p{
+div#sobre-certificado p{
     margin-left: 5px;
     text-align: justify;
+    padding: 2px;
 }
 
-div#produto h4{
+div#sobre-certificado h4{
     text-align: center;
     padding: 2%
 }
 
-div#produtos button{
-    border-radius: 15rem;
+div#sobre-certificado button{
     border: none;
     align-items: center;
 }
 
-@media screen and (max-width: 405px) {
+@media screen and (max-width: 740px) {
+    nav{
+        display: flex;
+        flex-direction: column;
+    }
+
+    div.certificadora{
+        width: 360px;
+        display: flex;
+        flex-direction: column;
+        flex-wrap: wrap;
+        justify-content: center;
+    }
     
     #servico{
         display: flex;
         flex-direction: column;
         flex-wrap: wrap;
-        align-items: center;
+        width: 100%;
+    }
+    
+    #servico img{
+        justify-content: center;
+        padding: 30px;
     }
 
-    #produto{
-        display: flex;
-        flex-direction: column;
+    div#sobre-certificado{
+        justify-content: center;
+        width: 95%;
     }
-
-    img{
-        padding: 10px;
-    }
-
+    
+    .wpp{
+        width: 0px;
+        position: fixed;
+        bottom: 5px;
+        right: 100px;
+        z-index: 9999;
+    }   
 }
 
-@media screen and (max-width: 628px) {
-    
+@media screen and (min-width: 730px) {
+
     #servico{
         display: flex;
-        flex-direction: column;
-        flex-wrap: wrap;
-        align-items: center;
+        flex-direction: row;
+        width: 80%;
+        justify-content: center;
+        margin-left: 10%
+
     }
 
-    #produto{
-        display: flex;
-        flex-direction: column;
-        width: 50%
+    div#sobre-certificado{
+        justify-content: center;
+        width: 95%;
     }
 
-    img{
-        padding: 10px;
+    #servico img{
+        justify-content: center;
+        padding: 30px;
     }
 
 }
-

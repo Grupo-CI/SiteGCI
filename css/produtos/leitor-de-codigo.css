@@ -13,40 +13,35 @@ div h2#sistema{
     margin-left: 15%;
 }
 
-div.leitor-de-codigo{
-    width: 750px;
+div#sobre-leitor{
+    width: 500px;
     text-align: justify;
     margin-left: 2%;
     margin-bottom: 2%;
     height: auto;
-    justify-content: space-between;
-}
-
-div#sobre-leitor p{
-    margin-left: 10px;
-    text-align: justify;
-    padding: 5px;
 }
 
 div#sobre-leitor{
     text-align: center;
 }
 
+div#sobre-leitor p{
+    margin-left: 5px;
+    text-align: justify;
+    padding: 2px;
+}
+
 div#sobre-leitor h4{
+    text-align: center;
     padding: 2%
 }
 
-h3{
-    text-align: center;
-    padding: 2%;
-}
-
-div.detalhes-prod button{
+div#sobre-leitor button{
     border: none;
     align-items: center;
 }
 
-@media screen and (max-width: 730px) {
+@media screen and (max-width: 740px) {
     nav{
         display: flex;
         flex-direction: column;
@@ -69,12 +64,12 @@ div.detalhes-prod button{
     
     #servico img{
         justify-content: center;
-        padding: 20px;
+        margin-left: 7%
     }
 
     div#sobre-leitor{
         justify-content: center;
-        width: 100%;
+        width: 95%;
     }
     
     .wpp{
@@ -86,12 +81,14 @@ div.detalhes-prod button{
     }   
 }
 
-@media screen and (max-width: 768px) {
-    div.leitor-de-codigo{
-        width: 660px;
-        display: flex;
-        flex-direction: row;
-        flex-wrap: wrap;
+@media screen and (min-width: 740px) and (max-width: 881px){
+
+    #servico{
+        width: 90%;
+    }
+
+    div#sobre-leitor{
         justify-content: center;
+        width: 50%;
     }
 }

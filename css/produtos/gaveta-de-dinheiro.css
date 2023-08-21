@@ -41,18 +41,14 @@ div#sobre-gaveta button{
     align-items: center;
 }
 
-
-@media screen and (max-width: 732px) {
+@media screen and (max-width: 740px) {
     nav{
         display: flex;
         flex-direction: column;
     }
 
-    main{
-        justify-content: center;
-    }
-
     div.gaveta-de-dinheiro{
+        width: 360px;
         display: flex;
         flex-direction: column;
         flex-wrap: wrap;
@@ -63,53 +59,35 @@ div#sobre-gaveta button{
         display: flex;
         flex-direction: column;
         flex-wrap: wrap;
-        width: 95%;
+        width: 100%;
     }
     
     #servico img{
         justify-content: center;
-        padding: 30px;
     }
 
     div#sobre-gaveta{
         justify-content: center;
-        width: 100%;
+        width: 95%;
     }
-
+    
     .wpp{
         width: 0px;
         position: fixed;
         bottom: 5px;
-        right: 80px;
+        right: 100px;
         z-index: 9999;
     }   
 }
 
-@media screen and (max-width: 1028px) {
- 
-    nav{
-        width: 90%;
-    }
-
-    #aviso{
-        width: 90%;
-    }
+@media screen and (min-width: 740px) and (max-width: 881px){
 
     #servico{
-        width: 85%;       
+        width: 90%;
     }
- 
-    #servico .img{
+
+    div#sobre-gaveta{
         justify-content: center;
         width: 50%;
     }
-
-    .wpp{
-        width: 0px;
-        position: fixed;
-        bottom: 5px;
-        right: 160px;
-        z-index: 9999;
-    }   
-
 }

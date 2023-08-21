@@ -1,6 +1,5 @@
-div.computador{
+#servico{
     display: flex;
-    flex-direction: row;
 }
 
 span #aviso{
@@ -13,90 +12,77 @@ div h2#sistema{
     margin-left: 15%;
 }
 
-div.computador{
-    width: 750px;
+div#sobre-pc{
+    width: 500px;
     text-align: justify;
     margin-left: 2%;
     margin-bottom: 2%;
     height: auto;
 }
 
-div#sobre-pc p{
-    margin-left: 10px;
-    text-align: justify;
-}
-
 div#sobre-pc{
     text-align: center;
 }
 
+div#sobre-pc p{
+    margin-left: 5px;
+    text-align: justify;
+    padding: 2px;
+}
+
 div#sobre-pc h4{
+    text-align: center;
     padding: 2%
 }
 
-h3{
-    text-align: center;
-    padding: 2%;
-}
-
-div.detalhes-prod button{
+div#sobre-pc button{
     border: none;
     align-items: center;
 }
 
-@media screen and (max-width: 626px) {
+@media screen and (max-width: 740px) {
     nav{
         display: flex;
         flex-direction: column;
     }
 
-    div.computador{
+    div.pc{
+        width: 360px;
         display: flex;
         flex-direction: column;
-        width: 100%;
+        flex-wrap: wrap;
         justify-content: center;
     }
     
-    div.sobre-pc{
-        align-self: center;
-        width: 50%;
-        padding: 10px
-    }
-
-    .wpp{
-        width: 0px;
-        position: fixed;
-        bottom: 5px;
-        right: 70px;
-        z-index: 9999;
-    }
-}
-
-@media screen and (max-width: 845px) {
-    nav{
+    #servico{
         display: flex;
         flex-direction: column;
+        flex-wrap: wrap;
+        width: 100%;
+    }
+    
+    #servico img{
+        justify-content: center;
+        padding: 30px;
     }
 
-    #sobre-pc{
-        width: 40%
+    div#sobre-pc{
+        justify-content: center;
+        width: 95%;
     }
-
-    main, .computador{
-        width: 90%;
-    }
-
-    img{
-        content: 'src:';
-    }
-
+    
     .wpp{
         width: 0px;
         position: fixed;
         bottom: 5px;
-        right: 70px;
+        right: 100px;
         z-index: 9999;
-    }
-
+    }   
 }
 
+@media screen and (min-width: 740px) and (max-width: 881px){
+    div#sobre-pc{
+        justify-content: center;
+        width: 50%;
+    }
+}

@@ -13,79 +13,90 @@ div h2#sistema{
     margin-left: 15%;
 }
 
-div.bobina{
-    width: 80%;
+div#sobre-bobina{
+    width: 500px;
     text-align: justify;
     margin-left: 2%;
     margin-bottom: 2%;
     height: auto;
-    margin-right: 6%;
-}
-
-.detalhes-prod{
-    text-align: center;
-}
-
-div#sobre-bobina p{
-    margin-left: 10px;
 }
 
 div#sobre-bobina{
     text-align: center;
 }
 
-div.detalhes-prod h4{
-    padding: 2%
+div#sobre-bobina p, .detalhes-prod h4{
+    margin-left: 5px;
+    text-align: justify;
+    padding: 2%;
+    justify-content: space-between;
 }
 
 h3{
-    text-align: center;
-    padding: 2%;
+    padding: 2%
 }
 
-div.detalhes-prod button{
+div#sobre-bobina button{
     border: none;
     align-items: center;
 }
 
-@media screen and (max-width: 670px) {
-
+@media screen and (max-width: 740px) {
     nav{
         display: flex;
         flex-direction: column;
     }
 
-    .img{
-        width: 70%;
-    }
-
-    main{
-        width: 70%;
-        justify-content: center;
+    div.bobina{
+        width: 360px;
         display: flex;
         flex-direction: column;
         flex-wrap: wrap;
+        justify-content: center;
     }
-
+    
     #servico{
         display: flex;
         flex-direction: column;
         flex-wrap: wrap;
+        width: 100%;
+    }
+    
+    #servico img{
+        justify-content: center;
+        padding: 30px;
     }
 
-    #sobre-bobina{
-        text-align: center;
+    div#sobre-pc{
+        justify-content: center;
+        width: 95%;
+    }
+    
+    .wpp{
+        width: 0px;
+        position: fixed;
+        bottom: 5px;
+        right: 100px;
+        z-index: 9999;
+    }   
+}
+
+@media screen and (min-width: 741px) and (max-width: 881px){
+
+    #aviso{
+        width: 90%
+    }
+
+    div#servico{
+        justify-content: center;
+        width: 80%;
     }
 
     .wpp{
         width: 0px;
         position: fixed;
         bottom: 5px;
-        right: 70px;
+        right: 110px;
         z-index: 9999;
-    }
-
-
+    }   
 }
-
-
