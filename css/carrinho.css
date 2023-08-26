@@ -1,0 +1,6 @@
+#carrinho-icon{
+    display: flex;
+    flex-direction: row-reverse;
+    padding: 10px;
+    justify-content: space-between;
+}
