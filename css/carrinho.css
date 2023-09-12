@@ -1,6 +1,43 @@
-#carrinho-icon{
+#carrinho{
     display: flex;
-    flex-direction: row-reverse;
-    padding: 10px;
+    flex-direction: column;
+    position: fixed;
+    top: 0;
+    right: 0px;
+    height: 99vh;
+    width: 360px;
+    background: linear-gradient(90deg, rgba(7,5,5,1) 6%, rgba(0,102,177,0.9590834697217676) 100%);
+    z-index: 50;
+    transition-duration: 200ms;
+    border-left: solid 2px grey;
+    padding: 5px;
     justify-content: space-between;
 }
+
+#finalizar-compra{
+    background: linear-gradient(90deg, rgba(0,0,0,0.7792366946778712) 9%, rgba(6,141,8,0.7624299719887955) 46%);
+    border-radius: 15rem;
+    border: none;
+    padding: 10px;
+    color: white
+} 
+
+#fechar-carrinho{
+    background: none;
+    border: none;
+}
+
+#cabecalho-carrinho{
+    display: flex;
+    justify-content: space-between;
+    margin: 4px;
+}
+
+#produtos-carrinho{
+    display: flex;
+    flex-direction: column;
+    gap: 2;
+    height: 60%;
+    overflow-y: auto;
+}
+

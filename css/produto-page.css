@@ -12,7 +12,7 @@
 div #produtos{
     display: grid;
     width: 90%;
-    grid-template-columns: 2fr 2fr 1.5fr;
+    grid-template-columns: 0.7fr 0.5fr 0.5fr;
     gap: 50px 10px;
     background: none;
     flex-wrap: wrap;

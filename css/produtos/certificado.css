@@ -14,7 +14,6 @@ div h2#sistema{
 }
 
 div#sobre-certifcado{
-    width: 500px;
     text-align: justify;
     margin-left: 2%;
     margin-bottom: 2%;
@@ -29,11 +28,6 @@ div#sobre-certificado p{
     margin-left: 5px;
     text-align: justify;
     padding: 2px;
-}
-
-div#sobre-certificado h4{
-    text-align: center;
-    padding: 2%
 }
 
 div#sobre-certificado button{
@@ -81,7 +75,7 @@ div#sobre-certificado button{
     }   
 }
 
-@media screen and (min-width: 730px) {
+@media screen and (min-width: 730px) and (max-width: 1023px) {
 
     #servico{
         display: flex;
@@ -102,4 +96,34 @@ div#sobre-certificado button{
         padding: 30px;
     }
 
+}
+
+@media screen and (min-width: 1024px) {
+    #servico{
+        display: flex;
+        flex-direction: row;
+        width: 70%;
+        justify-content: center;
+        margin-left: 20%
+    }
+
+    #tipos-certificado{
+        justify-items: center;
+        padding: 2%;
+        justify-content: space-between;
+    }
+
+    #valor{
+        margin-bottom: 2%;
+    }
+
+    button{
+        background-color: green;
+    }
+
+    #comprar{
+        padding: 10px;
+        
+    }
+    
 }
