@@ -80,6 +80,12 @@ h2{
     flex-direction: column;
 }
 
+#comprar{
+    padding: 10px;
+    border-radius: 5px;
+    background-color: green;
+}
+
 button a {
     color: white;
     text-decoration: none;

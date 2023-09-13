@@ -121,14 +121,4 @@ div#sobre-certificado button{
     #valor{
         margin-bottom: 2%;
     }
-
-    button{
-        background-color: green;
-    }
-
-    #comprar{
-        padding: 10px;
-        
-    }
-    
 }
