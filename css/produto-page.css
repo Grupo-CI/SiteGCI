@@ -10,12 +10,16 @@
 }
 
 div #produtos{
-    display: grid;
+    display: flex;
+    flex-direction: row;
     width: 90%;
-    grid-template-columns: 0.7fr 0.5fr 0.5fr;
-    gap: 50px 10px;
+    align-items: center;
     background: none;
     flex-wrap: wrap;
+}
+
+#imagem-sat, #pc-produtos, #bobina-termica{
+    background-color: azure;
 }
 
 span #aviso{
@@ -26,11 +30,12 @@ span #aviso{
     justify-content: space-between;
 }
 
-@media screen and (max-width: 500px){
+@media screen and (max-width: 698px){
 
     div #produtos{
         display: flex;
         flex-direction: column;
+        align-items: center;
     }
 
     .wpp{
@@ -45,7 +50,7 @@ span #aviso{
 @media screen and (max-width: 992px){
     
     div #produtos{
-        grid-template-columns: 2fr 2fr; 
+        align-items: center; 
     }
 
 }

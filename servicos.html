@@ -19,7 +19,8 @@
 </head>
 <body>
 
-    <section id="carrinho" class="">
+    <!--
+        <section id="carrinho" class="">
 
         <div id="cabecalho-carrinho">
           <p>Meu carrinho</p>
@@ -35,7 +36,8 @@
         <button id="finalizar-compra">
           Finalizar Compra
         </button>
-      </section>
+    </section>
+    -->
 
     <header>
         <img src=images/logo-semfundo-semtexto.svg alt="" >
@@ -50,15 +52,40 @@
     </header>
     
     <span>
-        <div id="aviso">
-             <img src="images/relogio.png" alt="Relogio com o aviso de que o nosso Horário de funcionamento é de segunda a sábado das 9 horas da manhã às 18 horas."> Horário de funcionamento das 9h às 18h de segunda a sábado. Não fazemos entregas, favor retirar os produtos na loja.
+        <div id="aviso" title="Relogio com o aviso de que o nosso Horário de funcionamento é de segunda a sábado das 9 horas da manhã às 18 horas.">
+            <i class="fa-regular fa-clock" style="color: #ffffff;"></i>
+            Horário de funcionamento das 9h às 18h de segunda a sábado. Não fazemos entregas, favor retirar os produtos na loja.
         </div>   
     </span>
 
     <main>
         <div id="servicos-page">
             <h2>Serviços</h2>
-            <div class="wrap-content" id="servicos">
+            <div class="wrap-content">
+                <div class="card">  
+                    <img src="images/sistema-datacaixa.png" alt="">
+                    <h4>Sistema Datacaixa</h4>
+                    <p>É um sistema para emissão de Cupom Fiscal Eletrônico e Nota Fiscal de Consumidor Eletrônica. O sistema tem uma interface intuitiva facilitando sua implantação e utilização. </p>
+                    <button class="button"><a href="saiba-mais/servicos/datacaixa.html">Saiba Mais</a></button>
+                </div>
+                <div class="card">
+                    <img src="images/sistema-consumer.png" alt="">
+                    <h4>Sistema Consumer</h4>
+                    <p>É um sistema para facilitar as vendas por <i>delivery</i>, deixando as entregas mais rápidas além de ter uma gestão completa e fácil. </p>
+                    <button class="button"><a href="saiba-mais/servicos/consumer.html">Saiba Mais</a></button>
+                </div>
+                <div class="card">
+                    <img src="images/sistema-maurilio.png" alt="" id="sm">
+                    <h4>Sistema Loja Virtual</h4>
+                    <p>É um sistema que oferece diversas facilidades que otimizam a reposição de mercadorias através do cálculo do estoque ideal e de relatórios gerenciais.</p>
+                    <button class="button"><a href="saiba-mais/servicos/maurilio.html">Saiba Mais</a></button>
+                </div>
+                <div class="card">
+                    <img src="images/sistema-saurus.png" alt="">
+                    <h4>Sistema Saurus</h4>
+                    <p>É um sistema de frente de caixa com interface intuitiva e telas autodidáticas que reduzem consideravelmente o tempo de aprendizado.</p>
+                    <button class="button"><a href="saiba-mais/servicos/saurus.html">Saiba Mais</a></button>
+                </div>
             </div>
         </div>
     </main>
@@ -73,6 +100,5 @@
        
     </footer>
 
-    <script src="/js/carrinho/servicos.js"></script>
 </body>
 </html>
